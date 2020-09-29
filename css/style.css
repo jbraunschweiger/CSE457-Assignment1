@@ -1,0 +1,41 @@
+.bar {
+  fill: brown;
+  stroke: gray;
+  stroke-width: 2;
+}
+
+.bar:hover {
+  fill: slategray;
+}
+
+.line {
+  fill: transparent;
+  stroke: brown;
+  stroke-width: 2;
+}
+
+.area {
+  fill: brown;
+}
+
+.scatter-plot {
+  border-width: 2px;
+  border-style: solid;
+  border-color: gray;
+}
+
+.scatter-dot {
+  fill: brown;
+}
+
+.scatter-dot:hover {
+  fill: gray;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
